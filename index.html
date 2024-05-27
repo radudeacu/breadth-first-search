@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadth-First Search</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="graph" class="graph">
+        <!-- Nodes -->
+        <div class="node" id="A" style="top: 50px; left: 250px;">A</div>
+        <div class="node" id="B" style="top: 150px; left: 150px;">B</div>
+        <div class="node" id="C" style="top: 150px; left: 350px;">C</div>
+        <div class="node" id="D" style="top: 250px; left: 50px;">D</div>
+        <div class="node" id="E" style="top: 250px; left: 235px;">E</div>
+        <div class="node" id="F" style="top: 250px; left: 265px;">F</div>
+        <div class="node" id="G" style="top: 250px; left: 450px;">G</div>
+        <div class="node" id="H" style="top: 350px; left: -50px;">H</div>
+
+        <!-- Edges -->
+        <!-- A to B -->
+        <div class="edge" style="top: 80px; left: 250px; width: 100px; height: 2px; transform: rotate(135deg); transform-origin: top left;"></div>
+        <!-- A to C -->
+        <div class="edge" style="top: 80px; left: 280px; width: 100px; height: 2px; transform: rotate(45deg); transform-origin: top left;"></div>
+        <!-- B to D -->
+        <div class="edge" style="top: 180px; left: 150px; width: 100px; height: 2px; transform: rotate(135deg); transform-origin: top left;"></div>
+        <!-- B to E -->
+        <div class="edge" style="top: 180px; left: 180px; width: 100px; height: 2px; transform: rotate(45deg); transform-origin: top left;"></div>
+        <!-- C to F -->
+        <div class="edge" style="top: 180px; left: 350px; width: 100px; height: 2px; transform: rotate(135deg); transform-origin: top left;"></div>
+        <!-- C to G -->
+        <div class="edge" style="top: 180px; left: 380px; width: 100px; height: 2px; transform: rotate(45deg); transform-origin: top left;"></div>
+        <!-- D to H -->
+        <div class="edge" style="top: 280px; left: 50px; width: 100px; height: 2px; transform: rotate(135deg); transform-origin: top left;"></div>
+    </div>
+    <!-- <script src="./index.js"></script>
+    <script src="./script.js"></script> -->
+    <script src="./bfs.js"></script>
+    <!-- <script src="./workspace.js"></script> -->
+</body>
+</html>
